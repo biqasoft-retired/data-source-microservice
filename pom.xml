@@ -11,7 +11,7 @@
     </parent>
 
     <artifactId>data-source</artifactId>
-    <version>1.0-RELEASE</version>
+    <version>1.0.1</version>
 
     <dependencies>
 
