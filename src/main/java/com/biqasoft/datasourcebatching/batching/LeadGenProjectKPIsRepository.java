@@ -7,8 +7,8 @@ import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Service;
 import com.biqasoft.entity.constants.CUSTOMER_FIELDS;
 import com.biqasoft.entity.customer.Customer;
-import com.biqasoft.entity.indicators.dto.DealStats;
-import com.biqasoft.entity.indicators.dto.IndicatorsDTO;
+import com.biqasoft.gateway.indicators.dto.DealStats;
+import com.biqasoft.gateway.indicators.dto.IndicatorsDTO;
 import com.biqasoft.entity.payments.CompanyCost;
 import com.biqasoft.entity.payments.CustomerDeal;
 

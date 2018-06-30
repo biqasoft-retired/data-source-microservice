@@ -1,16 +1,16 @@
 package com.biqasoft.datasourcebatching.batching;
 
+import com.biqasoft.entity.constants.CUSTOMER_FIELDS;
+import com.biqasoft.entity.customer.Customer;
+import com.biqasoft.entity.payments.CompanyCost;
+import com.biqasoft.entity.payments.CustomerDeal;
 import com.biqasoft.entity.payments.Payment;
+import com.biqasoft.gateway.indicators.dto.DealStats;
+import com.biqasoft.gateway.indicators.dto.IndicatorsDTO;
 import org.springframework.data.mongodb.core.MongoOperations;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Service;
-import com.biqasoft.entity.constants.CUSTOMER_FIELDS;
-import com.biqasoft.entity.customer.Customer;
-import com.biqasoft.entity.indicators.dto.DealStats;
-import com.biqasoft.entity.indicators.dto.IndicatorsDTO;
-import com.biqasoft.entity.payments.CompanyCost;
-import com.biqasoft.entity.payments.CustomerDeal;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;

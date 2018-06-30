@@ -8,16 +8,16 @@
 
 package com.biqasoft.datasourcebatching.batching;
 
-import com.biqasoft.microservice.database.MongoTenantHelper;
 import com.biqasoft.entity.constants.CUSTOMER_FIELDS;
+import com.biqasoft.entity.core.CreatedInfo;
+import com.biqasoft.entity.core.Domain;
 import com.biqasoft.entity.customer.LeadGenMethod;
 import com.biqasoft.entity.customer.LeadGenProject;
 import com.biqasoft.entity.datasources.CacheableMetaInfo;
 import com.biqasoft.entity.datasources.SavedLeadGenKPI;
-import com.biqasoft.entity.indicators.dto.IndicatorsDTO;
-import com.biqasoft.entity.core.CreatedInfo;
-import com.biqasoft.entity.core.Domain;
+import com.biqasoft.gateway.indicators.dto.IndicatorsDTO;
 import com.biqasoft.microservice.common.MicroserviceDomain;
+import com.biqasoft.microservice.database.MongoTenantHelper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
